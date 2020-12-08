@@ -1,0 +1,32 @@
+{
+  "name": "enviro-app",
+  "version": "1.0.0",
+  "description": "surrounding data system monitoring a bedroom in crown heights in brooklyn, ny",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YitingLiu97/enviro-app.git"
+  },
+  "keywords": [
+    "server",
+    "client",
+    "database"
+  ],
+  "author": "Yiting Liu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YitingLiu97/enviro-app/issues"
+  },
+  "homepage": "https://github.com/YitingLiu97/enviro-app#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1"
+  }
+}

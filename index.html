@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Environment APP</title>
+  <link rel="stylesheet" href="public/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.min.js"></script>
+</head>
+
+<body>
+
+  <!-- <p>I am here</p> -->
+
+  <div id="sketch">
+    <canvas id="myCanvas"></canvas>
+  </div>
+
+  <div id="dataSelections">
+    <label for="data">Get Data by:</label>
+    <select id="data" name="data">
+      <option value="allData" id="allData"></option>
+      <!-- <option value="id" id="idData">id</option> -->
+      <option value="size" id="size">size</option>
+      <option value="date" id="dateData">date</option>
+    </select>
+  </div>
+
+  <!-- <div id="ValSel">
+    <option value="micVal" id="micValDiv">micVal</option>
+    <option value="waterVal" id="waterValDiv">waterVal</option>
+
+  </div> -->
+  <!-- <div id="transactionID">
+    <label for="TranscationID">TranscationID:</label>
+    <input type="number" id="idUser" name="idUser" value="30">
+  </div> -->
+
+
+  <div id="sizeInput">
+    <div>
+      <p id="latestData">Latest Data</p>
+    </div>
+
+    <!-- <div>  -->
+    <input id="sizeVal" type="range" min="2" max="4000">
+    <!-- </div> -->
+  </div>
+
+  <div id="dateUser">
+    <label for="fromDate">from</label>
+    <input type="date" id="beginDate" min="2020-12-01" max="2020-12-05"name="beginDate" value="2020-12-02">
+    <input type="time" id="beginTime" name="beginTime" value="13:40:00">
+
+    <label for="toDate">to</label>
+    <input type="date" id="endDate" name="endDate" min="2020-12-01" max="2020-12-05" value="2020-12-05">
+    <input type="time" id="endTime" name="endTime" value="23:00:00">
+  </div>
+
+  <!-- <div style="width:50%">
+   <div> <p>Expand</p></div>
+    <input id="range" type="range" min="1" max="10" value="5">
+  </div> -->
+
+  <div> <button id="reset">reset</button></div>
+  
+    <footer>
+      <p>Created by <a href="https://www.yitingliu.com">Yiting Liu</a>. </p>
+    </footer>
+
+  <script src="public/main.js"></script>
+</body>
+
+</html>
