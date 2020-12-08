@@ -14,3 +14,7 @@
 ::ffff:69.113.154.38 - - [08/Dec/2020:01:18:55 +0000] "GET /data/size/20 HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36"
 ::ffff:69.113.154.38 - - [08/Dec/2020:01:18:59 +0000] "GET /data/size/20/micVal HTTP/1.1" 404 158 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36"
 ::ffff:69.113.154.38 - - [08/Dec/2020:01:19:11 +0000] "GET /data/date?from=2020-12-02%2012:00:00&to=2020-12-02%2015:00:00 HTTP/1.1" 500 1213 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36"
+::1 - - [08/Dec/2020:02:03:42 +0000] "GET / HTTP/1.1" 200 2269 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36"
+::1 - - [08/Dec/2020:02:03:42 +0000] "GET /public/style.css HTTP/1.1" 404 155 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36"
+::1 - - [08/Dec/2020:02:03:42 +0000] "GET /public/main.js HTTP/1.1" 404 153 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36"
+::1 - - [08/Dec/2020:02:03:42 +0000] "GET /public/main.js HTTP/1.1" 404 153 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36"

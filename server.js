@@ -176,6 +176,7 @@ app.get('/data/id/:id', function (req, res) {
 });
 
 
-app.get('/', function (req, res) {
-    res.send('hello');
-});
+app.get('/', function(req, res){
+    res.sendFile(__dirname+'/index.html'); // change the path to your index.html
+  });
+  

@@ -28,6 +28,20 @@ let sizeVal = document.getElementById("sizeVal");
 data.addEventListener("click", selectData);
 00
 
+
+
+// function getData(){
+//       //show collections of the saved images 
+//   fetch("/", {
+//     method: "GET"
+//   }).then(res => res.json())
+//   .then(response => {
+  
+//     console.log("response")
+// });
+
+
+// }
 reset.addEventListener("click", function () {
     // reset everything 
     created_at = [];
