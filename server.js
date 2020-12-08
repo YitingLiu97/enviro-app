@@ -1,4 +1,5 @@
 const express = require('express'); // Web Framework
+
 const app = express();
 const mysql = require('mysql');
 const cors = require('cors');
@@ -32,12 +33,15 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
     extended: false
 })); // for applica>//
-// app.use(authorizedDevice);                                 // check mac>
+app.use(express.static(__dirname + '/public'));
+
 const server = app.listen(process.env.PORT || 8080, function () {
     const host = server.address().address;
     const port = server.address().port;
     debug('app listening at http://%s:%s', host, port)
 });
+
+
 
 function formatResponse(thisContent) {
     var result = 'mic ' + thisContent.mic + ' water ' + thisContent.water;
