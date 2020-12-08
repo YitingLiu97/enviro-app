@@ -1,0 +1,7 @@
+﻿Content,Requests
+all data,/data
+"data with date specified ",/data/date?from=2020-12-02&to=2020-12-05
+microphone sensor value,/data/micVal
+"water sensor value ",/data/waterVal
+data with id specified,/data/id/3
+the most recent data with size limit,/data/size/100
